@@ -1,0 +1,181 @@
+.away {
+	transform: rotate(90deg);
+	transform-origin: top left;
+	height: 100px;
+	margin-left: 100px;
+	align-items: flex-end;
+}
+
+.awayDigits {
+	position: absolute;
+	display: flex;
+	margin-bottom: 75px;
+	z-index: -1;
+}
+
+.boxScore {
+	margin: 20px;
+}
+
+.box-col {
+	width: 27px;
+	text-align: center;
+}
+
+.box-row {
+	height: 32px;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.center-vert {
+	display: flex;
+	align-items: center;
+}
+
+.dropdown {
+	display: inline-block;
+	position: relative;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	overflow: auto;
+	width: max-content;
+	height: 240px;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	font-size: 1em;
+	z-index: 10;
+}
+
+.dropdown-logo {
+	width: 24px;
+	margin-right: 6px;
+}
+
+.dropdown-option {
+	height: 24px;
+	margin-right: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown > button {
+	background-color: transparent;
+	border: none;
+}
+
+.gameBoard {
+	height: 800px;
+	width: 800px;
+	display: inline-block;
+}
+
+.gameButtons {
+	margin: 20px;
+}
+
+.grid {
+	height: 700px;
+	width: 700px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 100px;
+	position: absolute;
+}
+
+.header {
+	height: 50px;
+	margin-bottom: 5px;
+}
+
+.home {
+	height: 100px;
+	margin-left: 100px;
+}
+
+.homeDigits {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 75px;
+	position: absolute;
+	z-index: -1;
+}
+
+.league {
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	position: absolute;
+}
+
+.logo {
+	width: 50px;
+	margin: 0px 10px;
+}
+
+.right-panel {
+	display: inline-block;
+	position: absolute;
+}
+
+.square {
+	background-color: white;
+	height: 50px;
+	width: 50px;
+	margin: 10px;
+}
+
+.square.highlighted {
+	background-color: rgb(255, 238, 45);
+}
+
+.square.selected {
+	background-color: gray;
+}
+
+.square.locked {
+	background-color: rgb(175, 175, 175);
+	opacity: 50%;
+}
+
+.teamName {
+	position: absolute;
+}
+
+.user-list {
+	margin: 20px;
+}
+
+.win {
+	box-shadow: 0px 0px 10px 10px rgba(0, 255, 0, 0.7);
+}
+
+ul {
+	padding-inline-start: 0px;
+}
+
+h2 > li {
+	display: inline-block;
+	margin: 0 1.14em;
+}
+
+th {
+	text-align: left;
+	padding: 5px;
+}
+
+td {
+	padding: 5px;
+}
