@@ -9,10 +9,18 @@ const Game = () => {
 	const initialValues = {
 		userList: [],
 		activeUser: -1,
-		league: { name: "NBA", scoringChances: 4 },
-		homeTeam: { city: "", name: "Home", logo: null },
+		league: { name: "NFL", scoringChances: 4 },
+		homeTeam: {
+			city: "Philadelphia",
+			name: "Eagles",
+			logo: require("./img/nfl/philadelphia_eagles.png"),
+		},
 		homeDigits: [],
-		awayTeam: { city: "", name: "Away", logo: null },
+		awayTeam: {
+			city: "Kansas City",
+			name: "Chiefs",
+			logo: require("./img/nfl/kansascity_chiefs.png"),
+		},
 		awayDigits: [],
 		gameStarted: false,
 		squarePrice: 1,
